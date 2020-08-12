@@ -1,0 +1,267 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/fonts.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/media.css" rel="stylesheet">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link href="css/jquery.fancybox.css" rel="stylesheet">
+<link href="css/jquery.jscrollpane.css" rel="stylesheet">
+<link href="css/jquery.formstyler.css" rel="stylesheet">
+
+<title>cuteAndFun</title>
+<!--[if lte IE 8]><script src="http://phpbbex.com/oldies/oldies.js" charset="utf-8"></script><![endif]-->
+</head>
+
+<body>
+<div class="wrapper"> 
+
+
+  <!--HEADER-->
+   <div id="header">
+     <div class="container">
+     
+   <div class="row">
+ <div class="col-xs-3 logo"><a href="index.html" class=""></a></div>
+ <div class="col-xs-6"><div class="input-search-box ico-tool"><input type="search" placeholder="Поиск..."></div></div>
+ <div class="col-xs-3">
+<!--<div class="user-box">
+ <a href="#">Log In</a>
+ <a href="#" class="logout ico-lock"></a>
+ </div>-->
+ 
+ <div class="user-box loggining">
+ <a href="#">kiril.azro</a>
+ <a href="#" class="logout ico-circle-2"></a>
+ </div>
+ </div>
+   </div>
+
+   
+    
+        
+      </div>
+    </div>
+<!--HEADER END--> 
+
+  
+  <!--CONTENT-BOX-->
+  <div id="content-box">
+    <div class="container">
+       <div class="row">
+    <div class="col-xs-3">
+    <div class="menu-left-box">
+    <ul class="menu-left-box-list clearfix">
+    <li><a href="#"><i class="ico-signs"></i> <span>Popular</span></a></li>
+     <li><a href="cute.html"><i class="ico-square"></i> <span>Cute</span></a></li>
+      <li><a href="#"><i class="ico-ball"></i> <span>Funny</span></a></li>
+       <li><a href="#"><i class="ico-symbol-1"></i> <span>Shared with me</span></a></li>
+        <li><a href="#"><i class="ico-up-arrow"></i> <span>My Uploads</span></a></li>
+         <li><a id="fancybox-overlay" href="#settings"><i class="ico-tool-2"></i> <span>Settings</span></a>
+         
+          <!--DIV MODAL WIN-->
+                    <div id="settings" class="form-modal" style="z-index:8000; display: none;">
+                      <div class="settings-header">
+                      <div class="settings-header-title">Settings <a href="#" class="ico-close close-popUp">Close</a></div>
+                      
+                      
+                      <div class="settings-header-body">
+                      
+                      <div class="settings-header-body-box">
+                      <div class="image-box">
+                     
+                      <img src="images/avatar-users-7.jpg" alt="">
+                      </div>
+                      <div class="name-and-text-status">
+                      <div class="name">Кирилл Левушкин</div>
+                      <a href="#" class="ico-draw">Edit profile</a>
+                      </div>
+                      <a href="#" class="edit-photo ico-circle-5">Edit Photo</a>
+                      </div>
+                      
+                      </div>
+                      
+                      </div>
+                      <form>
+                      <div class="settings-box">
+                      <div class="phone clearfix">
+                      <div class="clearfix">
+                      <i class="ico-technology"></i>
+                      <div class="phone-text">
+                      <a href="tel:380931368756">+38 093 136 87 56</a>
+                      <span>Phone</span>
+                      </div>
+                      </div>
+                      <div class="input-box mail-settings">
+                      <label>Username:</label>
+                      <input type="text" class="mail" placeholder="kiril.azro">
+                      </div>
+                      </div>
+                      </div>
+                      
+                      <div class="settings-box with-bell">
+                      <div class="creepers clearfix">
+                      <i class="ico-music"></i>
+                      <div class="creepers-box clearfix">
+                      <ul class="creepers-box-list clearfix">
+                      <li class="clearfix"><span>Desktop Notification</span> <a href="#" class="regulators"><i></i></a></li>
+                      <li class="clearfix"><span>Message Preview</span> <a href="#" class="regulators"><i></i></a></li>
+                       <li class="clearfix"><span>Sound</span> <a href="#" class="regulators"><i></i></a>
+                     <section class="regular-volume">	
+		<span class="tooltip"></span> <!-- Подсказка -->
+		<div id="slider"></div> <!-- Слайдер -->
+		<span class="volume"></span> <!-- Индикатор уровня -->
+	</section>
+                       </li>
+                      </ul>
+                      
+                      </div>
+                     
+                      </div>
+                      </div>
+                      
+                      <div class="settings-box with-keyboard">
+                      <div class="radio-box clearfix">
+                      <i class="ico-computer"></i>
+                      <div class="radio-box-total">
+                      <input type="radio" name="radio" id="radio1" /> <label for="radio1"> <span>Enter</span> - send message, <span>Shift + Enter</span> - new line</label><br>
+                     <input type="radio" name="radio" id="radio2" /> <label for="radio2"><span>Ctrl + Enter</span> - send message, <span>Enter</span> - new line</label>
+                     </div>
+                      </div>
+                      
+                      
+                      </div>
+                      <div class="settings-box language clearfix">
+                      <i class="ico-worldwide"></i>
+                      <div class="name-box">Language</div>
+                      <div class="select-box">
+                      <select>
+					<option>English</option>
+					<option>Русский</option>
+					<option>Italiano</option>
+					<option>Deutsch</option>
+				</select>
+                </div>
+                      </div>
+                      
+                      <div class="settings-box password with-hover clearfix">
+                      <a href="#">
+                      <i class="ico-interface-4"></i>
+                      <div class="name-box">Set Additional Passowrd</div>
+                      </a>
+                      </div>
+                     
+                   </form>
+                     
+                    </div>
+                    <!--DIV END MODAL WIN--> 
+         
+         </li>
+    </ul>
+    </div>
+    </div>
+    <div class="col-xs-9">
+    <div class="home-page-box">
+    <ul class="home-page-box-list clearfix">
+    <li class="popular">
+    <div class="title-box">
+    <h5 class="ico-signs">Popular</h5>
+    <span>1,985,349 публикаций</span>
+    </div>
+    <div class="work-box">
+    <ul class="work-box-list clearfix">
+    <li><div class="image-box"><img src="images/bg-header.jpg" alt=""><div class="hidden-box"><a href="#" class="ico-symbol-1"></a> <div class="like-box"><a href="#" class="ico-web"></a><span>126</span></div></div></div></li>
+    <li><div class="image-box"><img src="images/img-2.jpg" alt=""><div class="hidden-box"><a href="#" class="ico-symbol-1"></a> <div class="like-box"><a href="#" class="ico-web"></a><span>126</span></div></div></div></li>
+    <li><div class="image-box"><img src="images/img-3.jpg" alt=""><div class="hidden-box"><a href="#" class="ico-symbol-1"></a> <div class="like-box"><a href="#" class="ico-web"></a><span>126</span></div></div></div></li>
+    </ul>
+    <div class="view-more-button"><a href="#" class="button ico-interface-2">View More</a></div>
+    </div>
+    </li>
+    
+    <li>
+    <div class="title-box">
+    <h5 class="ico-square">Cute</h5>
+    <span>565,349 публикаций</span>
+    <div class="follow-button"><a href="#" class=" button follow ico-circle-1">Follow</a></div>
+    </div>
+    <div class="work-box">
+    <ul class="work-box-list clearfix">
+    <li><div class="image-box"><img src="images/img-4.jpg" alt=""><div class="hidden-box"><a href="#" class="ico-symbol-1"></a> <div class="like-box"><a href="#" class="ico-web"></a><span>126</span></div></div></div></li>
+    <li><div class="image-box"><img src="images/img-5.jpg" alt=""><div class="hidden-box"><a href="#" class="ico-symbol-1"></a> <div class="like-box"><a href="#" class="ico-web"></a><span>126</span></div></div></div></li>
+    <li><div class="image-box"><img src="images/img-6.jpg" alt=""><div class="hidden-box"><a href="#" class="ico-symbol-1"></a> <div class="like-box"><a href="#" class="ico-web"></a><span>126</span></div></div></div></li>
+    </ul>
+    <div class="view-more-button"><a href="#" class="button ico-interface-2">View More</a></div>
+    </div>
+    </li>
+      <li>
+    <div class="title-box">
+    <h5 class="ico-ball">Funny</h5>
+    <span>237,778 публикаций</span>
+    <div class="follow-button"><a href="#" class=" button follow ico-circle-1">Follow</a></div>
+    </div>
+    <div class="work-box">
+    <ul class="work-box-list clearfix">
+    <li><div class="image-box"><img src="images/img-7.jpg" alt=""><div class="hidden-box"><a href="#" class="ico-symbol-1"></a> <div class="like-box"><a href="#" class="ico-web"></a><span>126</span></div></div></div></li>
+    <li><div class="image-box"><img src="images/img-8.jpg" alt=""><div class="hidden-box"><a href="#" class="ico-symbol-1"></a> <div class="like-box"><a href="#" class="ico-web"></a><span>126</span></div></div></div></li>
+    <li><div class="image-box"><img src="images/img-9.jpg" alt=""><div class="hidden-box"><a href="#" class="ico-symbol-1"></a> <div class="like-box"><a href="#" class="ico-web"></a><span>126</span></div></div></div></li>
+    </ul>
+    <div class="view-more-button"><a href="#" class="button ico-interface-2">View More</a></div>
+    </div>
+    </li>
+    </ul>
+    </div>
+    </div>
+   
+    
+    </div>
+  </div>
+ </div>
+  <!--CONTENT-BOX END-->
+  
+  <div class="empty"></div>
+</div>
+
+<!--FOOTER-->
+<footer>
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+      
+      <div class="col-xs-3">
+      <div class="copyright">© 2016 NoName App</div>
+      </div>
+      <div class="col-xs-9">
+      <ul class="footer-navigation-list clearfix">
+      <li><a href="#">О нас</a></li>
+       <li><a href="#">Поддержка</a></li>
+        <li><a href="#">Блог</a></li>
+         <li><a href="#">Пресса</a></li>
+          <li><a href="#">Api</a></li>
+           <li><a href="#">Вакансии</a></li>
+           <li><a href="#">Конфиденциальность</a></li>
+          <li><a href="#">Условия</a></li>
+           <li><a href="#">Язык</a></li>
+      </ul>
+      </div>
+      
+      </div>
+    </div>
+    </div>
+</footer>
+<!--FOOTER END--> 
+
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script> 
+<script type="text/javascript" src="js/colorPicker.v1.2.js"></script>	
+<script src="js/jquery.mousewheel.js"></script>
+<script src="js/jquery.jscrollpane.js"></script> 
+<script src="js/jquery-ui-1.8.21.custom.min.js"></script>
+<script src="js/jquery.formstyler.min.js"></script> 
+<script src="js/components.js"></script> 
+<script src="js/SmoothScroll.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/scripts.js"></script>
+</body></html>
